@@ -1,0 +1,20 @@
+{
+    "name": "yhoga/balajarlibrary",
+    "description": "Library Composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yhoga Dwiputra",
+            "email": "yosunagaai@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "YhogaDwiputra\\Belajar\\" : "src/"
+        }
+    }
+}

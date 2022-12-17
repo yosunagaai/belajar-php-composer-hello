@@ -1,5 +1,5 @@
 <?php
-use YhogaDwiputra\Belajar;
+namespace YhogaDwiputra\Belajar;
 
 class Customer{
 

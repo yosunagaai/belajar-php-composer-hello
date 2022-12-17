@@ -4,7 +4,8 @@ use YhogaDwiputra\Belajar;
 class Customer{
 
     public function __construct(
-        private string $name
+        private string $name,
+        private string $address
     ){}
 
     public function sayHello(string $name): string
